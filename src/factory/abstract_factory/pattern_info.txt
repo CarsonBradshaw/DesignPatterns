@@ -1,0 +1,3 @@
+The abstract factory is nearly identical to the factory method
+The primary difference is that multiple products are defined and the ProductFactory
+has multiple getProductX() methods where each defines a family of related products.
