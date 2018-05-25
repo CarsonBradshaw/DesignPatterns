@@ -26,6 +26,7 @@ public class CompositeIterator implements Iterator<MenuComponent> {
 		} else {
 			Iterator<MenuComponent> iterator = stack.peek();
 			if (!iterator.hasNext()) {
+				System.out.println(iterator);
 				stack.pop();
 				return hasNext();
 			} else {
